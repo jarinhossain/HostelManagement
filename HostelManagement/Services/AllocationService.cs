@@ -92,7 +92,7 @@ namespace HostelManagement.Services
             //domain to dto
             var data = mapper.Map<AllocationDto>(allocationDomainModel);
 
-            return new ApiResponse { IsSuccess = true, Data = data, Message = "Allocation data deleted successfully" };
+            return new ApiResponse { IsSuccess = true, Data = data, Message = "successfully deleted of allocation data" };
         }
 
     }
