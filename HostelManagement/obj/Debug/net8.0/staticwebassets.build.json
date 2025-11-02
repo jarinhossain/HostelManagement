@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "nAcG5BvK37kzqvUqrRRWncQko2pFZU0b0tYp8RlB5No=",
+  "Source": "HostelManagement",
+  "BasePath": "_content/HostelManagement",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

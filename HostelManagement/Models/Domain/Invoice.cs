@@ -1,0 +1,16 @@
+﻿namespace HostelManagement.Models.Domain
+{
+    public class Invoice
+    {
+        public Guid Id { set; get; }
+        public Guid ResidentId { set; get; }
+        public Resident Resident { set; get; }
+        public string Period { set; get; }
+        public double Total { set; get; }
+        public double Due { set; get; }
+        public bool Status { set; get; }
+        public DateTime IssueOn { set; get; }
+        public DateTime DueOn { set; get; }
+      
+    }
+}
